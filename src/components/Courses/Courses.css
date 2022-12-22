@@ -1,0 +1,81 @@
+.courses-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 160px;
+  gap: 60px;
+}
+
+.courses-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 51px;
+}
+
+.courses-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ff7710;
+}
+
+.courses-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 120px;
+}
+
+.courses-item-1 {
+  display: flex;
+}
+
+.item-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 18px;
+}
+
+.item-title h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 41px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0025em;
+  color: #1c1b1a;
+}
+
+.item-title span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  /* or 165% */
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: -0.015em;
+  color: #000;
+}
+
+.item-image img {
+  height: 350px;
+  width: 350px;
+  padding-left: 30px;
+  padding-right: 31px;
+}
