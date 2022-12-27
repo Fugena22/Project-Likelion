@@ -4,17 +4,21 @@ import ArrowRightIcon from "../../assets/Icon/ArrowRightIcon";
 const Courses = () => {
   return (
     <div className="flex flex-col items-center py-20 gap-14">
+      {/* Title */}
       <h5 className="text-primary font-semibold text-2xl flex items-center">
         Mục tiêu của bạn là gì?
       </h5>
+      {/* Items */}
       <div className="flex flex-col items-center px-4 gap-6">
         <div className="w-80 h-80 flex relative">
+          {/* Image */}
           <img
             src="../../assets/531e8270-80f7-4a24-b609-74b22079cdb4.png"
             alt=""
             className="w-80 h-80 absolute"
           />
         </div>
+        {/* Title and text */}
         <div className="flex flex-col items-start gap-4">
           <h5 className="flex items-center text-2xl font-semibold text-secondary font-body hover:flex hover:flex-row hover:justify-center hover:items-center hover:gap-2">
             FRONT-END
@@ -24,6 +28,7 @@ const Courses = () => {
             kiến thức chuyên môn, kỹ năng thực chiến và portfolio bạn cần để bắt
             đầu sự nghiệp lập trình viên Front-end.
           </p>
+          {/* Link */}
           <div className="flex flex-row items-center gap-5">
             <ArrowRightIcon />
             <a
@@ -37,12 +42,14 @@ const Courses = () => {
       </div>
 
       <div className="flex flex-col items-center px-4 gap-6">
+        {/* Image */}
         <img
           src="../../assets/531e8270-80f7-4a24-b609-74b22079cdb4.png"
           alt=""
           className="w-80 h-80 items-center"
         />
         <div className="flex flex-col items-start gap-4">
+          {/* Title and text */}
           <h5 className="flex items-center text-2xl font-semibold text-secondary font-body hover:flex hover:flex-row hover:justify-center hover:items-center hover:gap-2">
             BACK-END
           </h5>
@@ -51,6 +58,7 @@ const Courses = () => {
             liệu, logic, các chương trình - những thứ người dùng không thể nhìn
             thấy ở giao diện website.
           </p>
+          {/* Link */}
           <div className="flex flex-row items-center gap-5">
             <ArrowRightIcon />
             <a
@@ -64,12 +72,14 @@ const Courses = () => {
       </div>
 
       <div className="flex flex-col items-center px-4 gap-6">
+        {/* Image */}
         <img
           src="../../assets/531e8270-80f7-4a24-b609-74b22079cdb4.png"
           alt=""
           className="w-80 h-80 items-center"
         />
         <div className="flex flex-col items-start gap-4">
+          {/* Title and text */}
           <h5 className="flex items-center text-2xl font-semibold text-secondary font-body hover:flex hover:flex-row hover:justify-center hover:items-center hover:gap-2">
             FULL-STACK
           </h5>
@@ -78,6 +88,7 @@ const Courses = () => {
             cần để trở thành một lập trình viên Full-stack. Từ con số 0 đến
             thành thạo lập trình chỉ trong 3 tháng.
           </p>
+          {/* Link */}
           <div className="flex flex-row items-center gap-5">
             <ArrowRightIcon />
             <a

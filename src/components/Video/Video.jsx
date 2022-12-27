@@ -4,6 +4,7 @@ const Video = () => {
   return (
     <div className="flex flex-col items-center py-20 px-4 gap-14 bg-secondary">
       <div className="flex flex-col items-start gap-4">
+        {/* Title and text */}
         <h5 className="text-primary font-body font-semibold text-2xl">
           Học tại LIKELION
         </h5>
@@ -11,6 +12,7 @@ const Video = () => {
           Take your future into your own hands and discover your potential.
         </p>
       </div>
+      {/* Video Frame */}
       <div className="bg-gray w-80 h-44"></div>
     </div>
   );

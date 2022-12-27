@@ -10,7 +10,10 @@ const Footer = () => {
   return (
     <div className="bg-secondary flex flex-col items-center pt-20 px-4 pb-10 gap-6">
       <div className="flex flex-col items-center gap-6">
+        {/* Logo */}
         <Logo />
+
+        {/* Contact */}
         <div className="flex flex-col items-start gap-2">
           <p className="font-text text-xl flex items-center text-white">
             76A Lê Lai, phường Bến Thành, Quận 1, TP.Hồ Chí Minh
@@ -22,6 +25,8 @@ const Footer = () => {
             (+84) 867 133 779
           </p>
         </div>
+
+        {/* Link */}
         <div className="flex flex-col items-start gap-4">
           <div className="flex flex-row justify-between items-center gap-3">
             <p className="font-body font-bold text-xl flex items-center text-white">
@@ -36,6 +41,8 @@ const Footer = () => {
             <ArrowDownIcon />
           </div>
         </div>
+
+        {/* Media */}
         <div className="flex flex-row justify-center items-start gap-6">
           <FacebookIcon />
           <InstagramIcon />
@@ -43,6 +50,8 @@ const Footer = () => {
           <YoutubeIcon />
         </div>
       </div>
+
+      {/* Private */}
       <div className="flex flex-col items-center px-4 pb-4 gap-8">
         <p className="font-body font-medium text-xs flex items-center text-center text-white">
           © 2022 LIKELION. All Rights Reserved. Terms and Conditions. Privacy
