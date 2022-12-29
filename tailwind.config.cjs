@@ -3,8 +3,8 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
-      sm: "576px",
-      md: "960px",
+      sm: "350px",
+      md: "768px",
       lg: "1440px",
     },
     colors: {
@@ -12,6 +12,7 @@ module.exports = {
       secondary: "#1C1B1A",
       gray: "#D9D9D9",
       white: "#FFFFFF",
+      black: "#000000",
     },
     fontFamily: {
       body: "Montserrat",
