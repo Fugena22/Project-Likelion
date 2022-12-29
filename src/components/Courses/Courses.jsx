@@ -30,11 +30,13 @@ const Courses = () => {
                 </button>
               </div>
             </div>
-            <img
-              src="../../assets/531e8270-80f7-4a24-b609-74b22079cdb4.png"
-              alt=""
-              className="w-80 h-80"
-            />
+            <div>
+              <img
+                src="../../assets/531e8270-80f7-4a24-b609-74b22079cdb4.png"
+                alt=""
+                className="w-80 h-80"
+              />
+            </div>
           </div>
 
           <div className="flex flex-row-reverse items-center gap-8">
@@ -56,11 +58,13 @@ const Courses = () => {
                 </button>
               </div>
             </div>
-            <img
-              src="../../assets/315683023_3341948642749103_5559047794282828919_n.jpg"
-              alt=""
-              className="w-80 h-80"
-            />
+            <div>
+              <img
+                src="../../assets/315683023_3341948642749103_5559047794282828919_n.jpg"
+                alt=""
+                className="w-80 h-80"
+              />
+            </div>
           </div>
 
           <div className="flex flex-row items-center gap-8">
@@ -82,11 +86,13 @@ const Courses = () => {
                 </button>
               </div>
             </div>
-            <img
-              src="../../assets/315683023_3341948642749103_5559047794282828919_n.jpg"
-              alt=""
-              className="w-80 h-80"
-            />
+            <div>
+              <img
+                src="../../assets/315683023_3341948642749103_5559047794282828919_n.jpg"
+                alt=""
+                className="w-80 h-80"
+              />
+            </div>
           </div>
         </div>
       </div>

@@ -2,11 +2,11 @@ import React from "react";
 
 const Ready = () => {
   return (
-    <div className="flex flex-col sm:justify-center items-center pb-20 gap-2">
-      <div className="bg-secondary w-80 h-36 items-center flex flex-col">
+    <div className="flex flex-col sm:justify-center items-center sm:pb-20 sm:px-4 gap-2 md:pb-40">
+      <div className="bg-secondary w-full pb-7 items-center flex flex-col gap-3">
         {/* Title */}
         {/* Tablet */}
-        <h4 className="font-body font-semibold text-4xl flex items-center tracking-wide text-white sm:hidden">
+        <h4 className="md:font-body md:font-semibold md:text-4xl md:flex md:items-center md:tracking-wide md:text-white md:pt-12 sm:hidden">
           Bạn đã sẵn sàng thay đổi?
         </h4>
         {/* Mobile */}
