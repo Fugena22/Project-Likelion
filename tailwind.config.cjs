@@ -2,6 +2,7 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    borderWidth: { 0.5: "0.5px" },
     screens: {
       sm: "350px",
       md: "768px",
