@@ -112,7 +112,7 @@ const Footer = () => {
       {/* Mobile */}
       <div className="ms:flex ms:flex-col ms:items-center ms:gap-6 md:hidden">
         {/* Logo */}
-        <Logo />
+        <Logo className="" />
 
         {/* Contact */}
         <div className="flex flex-col items-start gap-2">
