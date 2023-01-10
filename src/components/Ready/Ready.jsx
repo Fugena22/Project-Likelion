@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Ready = () => {
   return (
@@ -15,7 +16,7 @@ const Ready = () => {
         </h6>
         {/* Button */}
         <button className="bg-primary text-secondary flex flex-col items-start py-3 px-4 gap-11 font-body font-bold text-base">
-          Đăng ký ngay
+          <Link to="overview">Đăng ký ngay</Link>
         </button>
       </div>
     </div>
