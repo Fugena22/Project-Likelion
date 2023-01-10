@@ -1,36 +1,30 @@
 import React from "react";
 import ArrowDownIconBlack from "../../../assets/Icon/ArrowDownIconBlack";
 
-const Question = () => {
+const Charge = () => {
   return (
     <div className="flex flex-col items-start p-0 gap-16">
       <h5 className="font-body font-semibold text-2xl text-secondary uppercase">
-        Overview
+        Học phí
       </h5>
       <hr />
       <div className="flex flex-col items-start p-0 gap-8">
         <div className="flex flex-col items-start p-0 gap-6">
-          <div className="flex flex-row justify-between items-center p-0 gap-40">
+          <div className="flex flex-row justify-between items-center p-0">
             <h5 className="font-body font-bold text-xl tracking-wide text-secondary">
-              LIKELION là ai?
-            </h5>
-            <ArrowDownIconBlack />
-          </div>
-          <div className="flex flex-row justify-between items-center p-0 gap-20">
-            <h5 className="font-body font-bold text-xl tracking-wide text-secondary">
-              LIKELION dạy những gì?
+              Học phí của các khoá học là bao nhiêu?
             </h5>
             <ArrowDownIconBlack />
           </div>
           <div className="flex flex-row justify-between items-center p-0">
             <h5 className="font-body font-bold text-xl tracking-wide text-secondary">
-              Ai có thể tham gia khoá học tại LIKELION?
+              Hình thức thanh toán học phí như thế nào?
             </h5>
             <ArrowDownIconBlack />
           </div>
           <div className="flex flex-row justify-between items-center p-0">
             <h5 className="font-body font-bold text-xl tracking-wide text-secondary">
-              Tại sao nên chọn học tại LIKELION?
+              Tôi cần chuẩn bị gì khi tham gia khoá học?
             </h5>
             <ArrowDownIconBlack />
           </div>
@@ -40,4 +34,4 @@ const Question = () => {
   );
 };
 
-export default Question;
+export default Charge;
