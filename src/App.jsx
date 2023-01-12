@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Main from "./pages/Main/Main";
 import Overview from "./pages/OverviewPage/Overview";
+import NotFound from "./pages/NotFound/NotFound";
 
 function App() {
   const router = createBrowserRouter([
@@ -17,6 +18,10 @@ function App() {
     {
       path: "/overview",
       element: <Overview />,
+    },
+    {
+      path: "*",
+      element: <NotFound />,
     },
   ]);
   return <RouterProvider router={router} />;
